@@ -172,7 +172,7 @@ Todas as configurações ficam centralizadas em `support/env.js`:
 ## 👤 Autor
 
 **Seu Nome Aqui**  
-[GitHub](https://github.com/seu-usuario) | [LinkedIn](https://linkedin.com/in/seu-perfil)
+[GitHub](https://github.com/dbuG-Hun7er) | [LinkedIn](https://www.linkedin.com/in/dbughun7er/)
 
 ---
 
