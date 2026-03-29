@@ -1,0 +1,25 @@
+{
+  "name": "ebac-m24-pactum-tests",
+  "version": "1.0.0",
+  "description": "M24 - Automação de API REST/GraphQL + Testes de Contrato com PactumJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.test.js --timeout 10000",
+    "test:rest": "mocha ./test/api/**/*.test.js --timeout 10000",
+    "test:graphql": "mocha ./test/graphql/**/*.test.js --timeout 10000",
+    "test:contract:consumer": "mocha ./test/contract/**/*Consumer*.test.js --timeout 10000",
+    "test:contract:provider": "mocha ./test/contract/**/*Provider*.test.js --timeout 10000",
+    "test:contract": "mocha ./test/contract/**/*.test.js --timeout 10000"
+  },
+  "keywords": ["qa", "pactum", "graphql", "contract", "api", "ebac"],
+  "author": "seu-nome-aqui",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.3.0",
+    "pactum": "^3.6.0"
+  },
+  "dependencies": {
+    "pactum-flow-plugin": "^0.1.4",
+    "pactum-matchers": "^1.1.6"
+  }
+}
